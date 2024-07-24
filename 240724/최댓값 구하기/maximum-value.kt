@@ -4,7 +4,7 @@ fun main(){
     val input = readLine()
 
     if (input != null) {
-        val tokens = input.split(" ")
+        val tokens = input.trim().split(" ")
         var maxValue = -1000
         for (token in tokens) {            
             try {
