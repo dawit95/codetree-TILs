@@ -1,1 +1,1 @@
-prlint(3)
+print(3)
